@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root{
+    --primaryColor:#fca400;
+    --secondaryColor:#272a31;
+    --darkWhite:#d3d3d3;
+    
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:lato;
+}
+/* Desktop version */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding:0px 10%;
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+}
+.mobile-menu{
+    display: none;
+}
+.logo img{
+    width: 3vw;
+}
+.menu-list-ul{
+    width: 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-list-li{
+    list-style: none;
+}
+.menu-list-li a{
+    text-decoration: none;
+    color:black;
+    font-weight: 1000;
+    transition: all .7s;
+    
+}
+.menu-list-li a:hover{
+    text-shadow: 0px 0px 10px;
+}
+
+/* main section */
+
+.hero-div{
+    width: 100vw;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding:10% 10%;
+    gap:3rem;
+    background-image: url("/assets/imgs/bg.jpg");
+    background-size: cover;
+}
+.thin-text{
+    font-weight: 400;
+    font-size:2rem;
+    color:var(--primaryColor);
+}
+.thick-text{
+    font-weight: 1000;
+    font-size: 3rem;
+    color:var(--primaryColor)
+}
+.description-about-summit{
+    width: 60%;
+    border:10px solid rgb(255, 255, 255);
+    background-color: var(--darkWhite);
+    padding:10px;
+}
+.summit-date{
+    font-weight: 1000;
+    font-size: 3rem;
+    color:var(--secondaryColor);
+}
+.summit-location{
+    font-weight: 700;
+    font-size: 2rem;
+    color:var(--secondaryColor)
+}
+
+                /* main program section */
+.main-program-div{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    gap:100px;
+    padding:10% 0px;
+    background: #626263;
+
+    
+}
+.main-program-item-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:30px;
+    width: 80vw;
+}
+.main-program-item{
+    backdrop-filter: blur(10px);
+    color:rgb(255, 255, 255);
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(238, 238, 238, 0.112);
+    backdrop-filter: blur(10px);
+    height: 20vh;
+    gap:10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px rgb(137, 68, 68);
+    padding:1rem;
+    transition: all .5s;
+}
+.main-program-div h2{
+    color:var(--primaryColor);
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+.main-program-item span{
+   text-align: center;
+   font-size: .7rem;
+   
+}
+.main-program-item:hover{
+    box-shadow: 0px 0px 15px 5px rgb(153, 137, 137);
+}
+
+            /*Feature speaker container  */
+.feature-speaker-section{
+    width: 100vw;
+    min-height:90vh;
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+    align-items: center;
+    justify-content: center;
+    padding-top:8rem;
+}
+.feature-speaker-div{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+        
+    
+}
+.feature-speaker-div-container{
+    display: flex;
+    gap:15px;
+}
+.feature-speaker-image img{
+    width: 170px;
+    height: 150px;
+    border-radius:.2rem;
+    object-fit: cover;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
+}
+.feature-speaker-details{
+    display: flex;
+    flex-direction: column;
+     width: 25vw;
+     justify-content: center;
+    gap: .5rem;
+}  
+.feature-speaker-description{
+    width: 25vw;
+    font-size: .9rem;
+}     
+.feature-speaker-job{
+    color:var(--primaryColor);
+}
+
+/* partners Section */
+.partners{
+    background-color: #414246;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    width: 100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin-top:8rem;
+}
+.partners h3{
+    color:rgb(227, 219, 219);
+    border-bottom:1px solid var(--primaryColor);
+    font-size: 2rem;
+    font-weight: 400;
+}
+.partners-div{
+    width: 80vw;
+}
+.partners-div-ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.partners-div-li{
+    list-style: none;
+    width: 20%;
+}
+.partners-div-li img{
+    width: 60%;
+}
+/* footer copy right section */
+.copy-right{
+    display: flex;
+    width: 100vw;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* see-more button */
+.btn-see-more{
+    display: none;
+}
+
+/* mobile layout  */
+@media (max-width:600px)
+ {
+    .logo,.menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .mobile-menu-button{
+        width: 10vw;
+        height: 10vw;
+        font-size: 2rem;
+        border: none;
+        background: white;
+        font-weight: 1000;
+        cursor: pointer;
+   
+    }
+    .mobile-menu-options{
+        position: fixed;
+        background: #00000082;
+        backdrop-filter: blur(10px);
+        height: 1000vh;
+        width: 100vw;
+        left: 0;
+        top: 0;
+        display: none;
+        flex-direction: column;
+        padding-left:10%;
+        padding-top:10%;
+        z-index: 1000;
+    }
+    .mobile-menu-list-li{
+        list-style: none;
+        padding-top:30px;
+    }
+    .mobile-menu-list-li a{
+        text-decoration: none;
+        font-size:4rem;
+        border-bottom: 1px solid;
+        font-weight: 1000;
+        color:var(--primaryColor);
+    }
+    .mobile-menu-closing-btn {
+        width: 10%;
+        position: absolute;
+        right: 10%;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+        top: 10px;
+        font-weight: 1000;
+       }
+       
+    .main-program-item{
+        width: 100%;
+    }
+    .feature-speaker-div{
+        grid-template-columns: 1fr;
+    }
+    .btn-see-more{ 
+        display: block;
+        width: 80vw;
+        border:1px solid black;
+        height: 5vh;
+    }
+    div.feature-speaker-div-container:nth-child(4),
+    div.feature-speaker-div-container:nth-child(5),
+    div.feature-speaker-div-container:nth-child(6),
+    div.feature-speaker-div-container:nth-child(7),
+    .partners,.copy-right
+    {
+        display: none;
+    }
+    .active{
+        display: flex;
+        
+    }
+ }
