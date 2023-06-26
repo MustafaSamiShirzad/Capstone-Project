@@ -62,7 +62,7 @@ nav{
     flex-direction: column;
     padding:10% 10%;
     gap:3rem;
-    background-image: url("./assets/imgs/bg.jpg");
+    background-image: url("/assets/imgs/bg.jpg");
     background-size: cover;
 }
 .thin-text{
