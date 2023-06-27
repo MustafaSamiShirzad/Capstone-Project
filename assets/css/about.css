@@ -149,6 +149,7 @@ nav {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .see-past-project-div1-innerdiv {
@@ -175,6 +176,7 @@ nav {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
 }
 
 .see-past-project-div2-innerdiv {
