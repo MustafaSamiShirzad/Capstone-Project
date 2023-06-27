@@ -148,6 +148,7 @@ nav {
   justify-content: center;
   position: relative;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .see-past-project-div1-innerdiv {
@@ -173,6 +174,7 @@ nav {
   justify-content: center;
   position: relative;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .see-past-project-div2-innerdiv {
@@ -211,7 +213,6 @@ nav {
 .copy-right-text span {
   color: white;
 }
-
 
 /* mobile version */
 
