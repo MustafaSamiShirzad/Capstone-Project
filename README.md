@@ -95,8 +95,11 @@ As it is a solo Project therefore it had no contribution.
 
 Feel free to check the [issues page](../../issues/).
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a 
+name="acknowledgements"></a>
 
+
+Special credit goes to  Cindy Shin the author of the original design. 👍🏾
 Mustafa shirzad @MustafaSamiShirzad
 
 ## ⭐️ Show your support <a name="support"></a>

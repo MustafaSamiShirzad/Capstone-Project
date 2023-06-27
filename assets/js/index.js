@@ -56,12 +56,6 @@ const obj = {
 const div = document.createElement('div');
 div.className = 'feature-speaker-div';
 
-// for(let i=0; i<values.length; i+=1)
-// {
-//   console.log(values[i].name);
-
-// }
-
 const keys = Object.keys(obj);
 const values = Object.values(obj);
 
@@ -111,4 +105,5 @@ for (let i = 0; i < values.length; i += 1) {
 
 const featureSpeakerHeading = document.createElement('h2');
 featureSpeakerHeading.innerText = 'Feature Speaker';
-featureSpeakerSection.append(featureSpeakerHeading, div);
+const hr = document.createElement('hr');
+featureSpeakerSection.append(featureSpeakerHeading, hr, div);
