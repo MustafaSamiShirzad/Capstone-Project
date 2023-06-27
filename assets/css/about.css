@@ -139,15 +139,15 @@ nav {
 }
 
 .see-past-project-div1 {
-  /* background-color: #d76b58e7; */
   width: 30vw;
   height: 80%;
-  background-image: url(./2021project.jpeg)
+  background-image: url(./2021project.jpeg);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .see-past-project-div1-innerdiv {
@@ -172,6 +172,7 @@ nav {
   align-items: center;
   justify-content: center;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .see-past-project-div2-innerdiv {
