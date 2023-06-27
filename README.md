@@ -41,7 +41,7 @@ click on here to reach me: https://github.com/MustafaSamiShirzad
 
 ## 🛠 Built With **HTML, CSS and Javascript**
 
-### Tech Stack **HTML, CSS and Javascript **
+### Tech Stack HTML, CSS and Javascript 
 ### Key Features <a name="key-features"></a>
 - **Contains information about me and the services I offer in the software development world**
 
@@ -101,7 +101,6 @@ Mustafa shirzad @MustafaSamiShirzad
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
 -Mustafa shirzad @MustafaSamiShirzad
 
