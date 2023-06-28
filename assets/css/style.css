@@ -199,7 +199,7 @@ nav {
 }
 
 .description-about-summit {
-  width: 60%;
+  width: 85%;
   border: 10px solid rgb(255, 255, 255);
   background-color: var(--darkWhite);
   padding: 10px;
@@ -225,7 +225,7 @@ nav {
   align-items: center;
   justify-content: center;
   min-height: 70vh;
-  gap: 100px;
+  gap: 50px;
   padding-bottom: 10%;
   padding-top: 3%;
   background: #626263;
@@ -308,24 +308,24 @@ nav {
 }
 
 .feature-speaker-image img {
-  width: 170px;
-  height: 150px;
-  border-radius: 0.2rem;
+  width: 110px;
+  height: 110px;
+  border-radius: 0.1rem;
   object-fit: cover;
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3px 1px rgba(224, 2, 2, 0.5);
 }
 
 .feature-speaker-details {
   display: flex;
   flex-direction: column;
-  width: 25vw;
+  width: 30vw;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 0.3rem;
 }
 
 .feature-speaker-description {
-  width: 25vw;
-  font-size: 0.9rem;
+  width: 30vw;
+  font-size: 0.8rem;
 }
 
 .feature-speaker-job {
@@ -463,8 +463,17 @@ nav {
   .btn-see-more {
     display: block;
     width: 80vw;
-    border: 1px solid black;
+    border: none;
+    border-radius: 12px;
     height: 5vh;
+    box-shadow: 0 0 5px 1px var(--primaryColor);
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+
+  .btn-see-more:hover {
+    background-color: var(--primaryColor);
+    color: white;
   }
 
   div.feature-speaker-div-container:nth-child(4),
@@ -478,5 +487,20 @@ nav {
 
   .active {
     display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-program-item-container {
+    width: 90vw;
+    gap: 10px;
+  }
+
+  .feature-speaker-details {
+    width: 35vw;
+  }
+
+  .feature-speaker-description {
+    width: 50vw;
   }
 }
