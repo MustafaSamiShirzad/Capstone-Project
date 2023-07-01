@@ -1,5 +1,3 @@
-# Capstone-Project
-
 # Capstone Project
 <a name="readme-top"></a>
 
@@ -48,6 +46,7 @@ click on here to reach me: https://github.com/MustafaSamiShirzad
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 here is the live code preview: https://mustafasamishirzad.github.io/Capstone-Project/index.html
+Loom Recorder video:https://www.loom.com/share/ced96114fd704aa59c224076ecce43ae?sid=4fd87d9c-ae2f-43d6-a2a4-126483c3e9b5
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
